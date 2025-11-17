@@ -1,0 +1,34 @@
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #9999FF, #33AEFF);
+  padding: 1rem;
+}
+
+.card-img-left {
+  width: 45%;
+  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background-size: cover;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+
+.text-danger {
+  color: red !important;
+}
